@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Header - con css grid</title>
+</head>
+<body>
+	
+	<header class="header">
+		<div class="container__grid">
+			<nav class="nav container">
+				<h2 class="menu__logo">Jarvi David</h2>
+
+				<div class="menu__links">
+					<div class="menu__item">
+						<a href="#" class="items">Inicio</a>
+					</div>
+
+					<div class="menu__item">
+						<a href="#" class="items">About <img src="images/flecha.svg" class="img__arrow"></a>
+
+						<div class="menu__next">
+							<a href="#" class="items menu__inside">About 1</a>
+
+							<a href="#" class="items menu__inside">About 2</a>
+
+							<a href="#" class="items menu__inside">About 3</a>
+						</div>
+					</div>
+
+					<div class="menu__item">
+						<a href="#" class="items">Projects <img src="images/flecha.svg" class="img__arrow"></a>
+
+						<div class="menu__next">
+							<a href="#" class="items menu__inside">Project 1</a>
+
+							<a href="#" class="items menu__inside">Project 2</a>
+
+							<a href="#" class="items menu__inside">Project 3</a>
+						</div>
+					</div>
+
+					<div class="menu__item">
+						<a href="#" class="items">Contact</a>
+					</div>
+				</div>
+				<figure class="icon__bar">
+					<img src="images/bars.svg" class="bars">
+				</figure>
+			</nav>
+			<div class="container__inf">
+				<div class="container__txt">
+					<h1 class="title">Hola soy Jarvi David</h1>
+					<h2 class="subtitle">
+						Bienvenido a mi practica de diseño web
+					</h2>
+				</div>
+				<div class="container__follow">
+					<a href="links/index.html" target="blank" class="social__links">
+						<i class="fab fa-facebook"></i>
+					</a>
+					<a href="#" class="social__links">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="#" class="social__links">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="wave" style=" overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-8.74,31.08 C90.00,225.48 396.44,-58.70 503.67,39.95 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+	</header>
+
+	<main>
+		<section class="container__services container__principal">
+			<h1 class="title__services">Nuestros Servicios</h1>
+			<div class="servicios">
+				<figure class="img__container">
+					<img src="images/business.svg" class="img__bussines">
+				</figure>
+				<div class="servicios__txt">
+					<div class="service">
+						<h2 class="title__service">Mercadeo <span class="number">1</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut </p>
+					</div>
+
+					<div class="service">
+						<h2 class="title__service">Soluciones <span class="number">2</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut </p>
+					</div>
+
+					<div class="service">
+						<h2 class="title__service">Inicialisacion <span class="number">3</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut </p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container__experience container__principal">
+			<h2 class="title__experience">Somos expertos en</h2>
+			<div class="experience">
+				<figure class="img__experience">
+					<img src="images/Designer.svg" class="img__exp">
+					<h2 class="title__exp">DESING WEB</h2>
+				</figure>
+
+				<figure class="img__experience">
+					<img src="images/responsive.svg" class="img__exp">
+					<h2 class="title__exp">RESPONSIVE DESING</h2>
+				</figure>
+
+				<figure class="img__experience">
+					<img src="images/security.svg" class="img__exp">
+					<h2 class="title__exp">SECURITY</h2>
+				</figure>
+			</div>
+		</section>
+	</main>
+
+	<div class="wave__footer" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-4.22,55.75 C131.20,180.09 472.06,-73.52 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #141E30;"></path></svg></div>
+
+	<footer class="footer">
+
+		<div class="container__footer">
+			<div class="footer__co1">
+				<h4 class="title__section">Sobre Nosotros</h4>
+				<div class="footer__links">
+					<a href="#" class="media__links">Accesos</a>
+					<a href="#" class="media__links">Inscripciones</a>
+					<a href="#" class="media__links">Enterprice</a>
+					<a href="#" class="media__links">Cuentas</a>
+					<a href="#" class="media__links">Direcciones</a>
+					<a href="#" class="media__links">Intereses</a>
+				</div>
+			</div>
+
+			<div class="footer__co1">
+				<h4 class="title__section">Empresa</h4>
+				<div class="footer__links">
+					<a href="#" class="media__links">Redes</a>
+					<a href="#" class="media__links">Mercado</a>
+					<a href="#" class="media__links">Ubicacion Estrategica</a>
+					<a href="#" class="media__links">Negocios</a>
+					<a href="#" class="media__links">Personas</a>
+				</div>
+			</div>
+
+			<div class="footer__co1">
+				<h4 class="title__section">Ubicaciones</h4>
+				<div class="footer__links">
+					<a href="#" class="media__links">Londres</a>
+					<a href="#" class="media__links">New York</a>
+					<a href="#" class="media__links">Reino Unido</a>
+					<a href="#" class="media__links">nueva Zelanda</a>
+					<a href="#" class="media__links">Chile</a>
+					<a href="#" class="media__links">Venezuela</a>
+				</div>
+			</div>
+
+			<div class="footer__co1">
+				<h4 class="title__section">siguenos</h4>
+				<div class="footer__follow">
+					<a href="#" class="footer__social">
+						<i class="fab fa-facebook"></i>
+					</a>
+					<a href="#" class="footer__social">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="#" class="footer__social">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="script.js"></script>
+	<script src="js/all.min.js"></script>
+</body>
+</html>
